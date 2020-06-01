@@ -1,24 +1,32 @@
 {
-  "name": "rest_api",
-  "version": "1.0.0",
-  "description": "node rest api backend",
-  "main": "index.js",
-  "engines": {
-    "node": "14.3.0"
-  },
-  "scripts": {
-    "start": "node src/index.js"
-  },
-  "repository": "https://github.com/gabrr/rest_api",
-  "author": "Gabriel Oliveira <g.webdevelopr@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "node": "^14.3.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
-  }
+    "name": "rest_api",
+    "version": "1.0.0",
+    "description": "node rest api backend",
+    "main": "index.js",
+    "engines": {
+        "node": "14.3.0"
+    },
+    "scripts": {
+        "start": "npm run build && node build/index.js",
+        "dev": "ts-node-dev src/index.ts",
+        "build": "rimraf ./build && tsc"
+    },
+    "repository": "https://github.com/gabrr/rest_api",
+    "author": "Gabriel Oliveira <g.webdevelopr@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "node": "^14.3.0"
+    },
+    "devDependencies": {
+        "@types/cors": "^2.8.6",
+        "@types/express": "^4.17.6",
+        "@types/node": "^14.0.6",
+        "rimraf": "^3.0.2",
+        "ts-node": "^8.10.2",
+        "ts-node-dev": "^1.0.0-pre.44",
+        "typescript": "^3.9.3"
+    }
 }

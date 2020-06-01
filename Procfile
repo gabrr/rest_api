@@ -1,2 +1,2 @@
-web: node src/index.js
+web: npm run build && node build/index.js
 
