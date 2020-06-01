@@ -1,2 +1,2 @@
-# rest_api
-Rest API 
+# Backend 
+Rest API hosted on heroku
