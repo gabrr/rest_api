@@ -1,0 +1,20 @@
+{
+  "name": "rest_api",
+  "version": "1.0.0",
+  "description": "node rest api backend",
+  "main": "index.js",
+  "engines": {
+    "node": "14.3.0"
+  },
+  "repository": "https://github.com/gabrr/rest_api",
+  "author": "Gabriel Oliveira <g.webdevelopr@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node": "^14.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
