@@ -7,13 +7,14 @@
     "node": "14.3.0"
   },
   "scripts": {
-  	"start": "node src/index.js"
+    "start": "node src/index.js"
   },
   "repository": "https://github.com/gabrr/rest_api",
   "author": "Gabriel Oliveira <g.webdevelopr@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "node": "^14.3.0"
   },
