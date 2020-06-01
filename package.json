@@ -6,6 +6,9 @@
   "engines": {
     "node": "14.3.0"
   },
+  "scripts": {
+  	"start": "node src/index.js"
+  },
   "repository": "https://github.com/gabrr/rest_api",
   "author": "Gabriel Oliveira <g.webdevelopr@gmail.com>",
   "license": "MIT",
